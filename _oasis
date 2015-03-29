@@ -27,7 +27,8 @@ Library cohttp
   Pack:          true
   Modules:       S, Code, Header, Cookie, Request, Response, Transfer,
                  Accept, Accept_parser, Accept_lexer, Accept_types, Link,
-                 Auth, Header_io, Transfer_io, Connection, Body, String_io, Conf
+                 Auth, Header_io, Transfer_io, Connection, Body, String_io,
+                 Conf, Multipart
   BuildDepends:  re.emacs, stringext, uri (>= 1.5.0), fieldslib,
                  sexplib, ppx_fields_conv, ppx_sexp_conv,
                  bytes, base64 (>= 2.0.0)
